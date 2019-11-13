@@ -68,7 +68,7 @@ export default {
 
   methods: {
     getApi: function() {
-      axios.get('http://api.moemoe.tokyo/anime/v1/master/' + this.selectYear + '/' + this.selectSeason)
+      axios.get('https://api.moemoe.tokyo/anime/v1/master/' + this.selectYear + '/' + this.selectSeason)
       .then((res) => {
         this.json = res;
       });
@@ -77,7 +77,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .selectWrap {
   margin-bottom: 3rem;
 }
@@ -86,11 +86,11 @@ export default {
 }
 .tileBox {
   margin-top: 0.5rem;
-}
-.tileBox dl {
-  margin-top: 0.5rem;
-}
-.tileBox dt {
-  font-size: 0.8rem;
+  dl {
+    margin-top: 0.5rem;
+  }
+  dt {
+    font-size: 0.8rem;
+  }
 }
 </style>
