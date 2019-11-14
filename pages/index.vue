@@ -78,6 +78,12 @@ export default {
 </script>
 
 <style lang="scss">
+html,body {
+  height: 100%;
+}
+body {
+  background-color: #eee;
+}
 .selectWrap {
   margin-bottom: 3rem;
 }

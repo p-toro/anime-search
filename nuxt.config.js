@@ -8,11 +8,11 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: pkg.name,
+    title: 'TV放映アニメ検索',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description },
+      { hid: 'description', name: 'description', content: '放映年とクール数からその時期に放映したTVアニメを調べることができます。' },
       { hid: 'robots', name: 'robots', content: 'noindex' }
     ],
     link: [
